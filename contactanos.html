@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Anime</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel-recupera/carousel.css"  rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <img style="width: 10%;
+            padding: 0% 2% 1% 5%;" src="./img/png-clipart-otaku-otaku-logo-anime-beach-vapor-lg-text-manga-thumbnail.png"> 
+            
+      <a class="navbar-brand" href="#">Anime</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            
+            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactanos.html">Contactanos</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="row g-3">
+  <div class="col-md-5 col-lg-4 order-md-last">
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+         
+  </div>
+  <div class="col-md-7 col-lg-8">
+
+    <style>
+      form{
+     margin-left: 40%;
+     width: 80%;
+     text-align: left;
+ }
+    .container  {
+      margin-left: 5%; 
+      margin-right: 5%;
+      margin-top: 5%;
+    }
+    </style>
+    
+     <!-- inicia Formulario -->
+                      <div div class="container">
+                        <form class="needs-validation" novalidate>
+                         <h4 class="mb-3">Formulario</h4>
+                         <div class="row g-3">
+                          <div class="col-sm-6">
+                            <label for="firstName" class="form-label">Nombres</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                              Valid first name is required.
+                            </div>
+                          </div>
+
+                          <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                              Valid last name is required.
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="username" class="form-label">
+                              Nombre de usuario</label>
+                            <div class="input-group">
+                              <span class="input-group-text">@</span>
+                              <input type="text" class="form-control" id="usarnombre" placeholder="usarnombre" required>
+                            <div class="invalid-feedback">
+                                Your username is required.
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback">
+                              Please enter a valid email address for shipping updates.
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="address" class="form-label">Direccion</label>
+                            <input type="text" class="form-control" id="address" placeholder="1234 bogota " required>
+                            <div class="invalid-feedback">
+                              Please enter your shipping address.
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                            <label for="country" class="form-label">Pais</label>
+                            <select class="form-select" id="country" required>
+                              <option value="">selecciona...</option>
+                              <option>Colombia</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please select a valid country.
+                            </div>
+                          </div>
+
+                          <div class="col-md-4">
+                            <label for="state" class="form-label">Departamento</label>
+                            <select class="form-select" id="state" required>
+                              <option value="">selecciona...</option>
+                              <option>Bogota</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please provide a valid state.
+                            </div>
+                          </div>
+
+                          <div class="col-md-3">
+                            <label for="zip" class="form-label">Código Postal</label>
+                            <input type="text" class="form-control" id="zip" placeholder="" required>
+                            <div class="invalid-feedback">
+                              Zip code required.
+                            </div>
+                          </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="save-info">
+                          <label class="form-check-label" for="save-info">
+                            Guarde esta información para la próxima vez</label>
+                        </div>
+
+                        
+                        
+                  
+
+                        <hr class="my-4">
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Continue </button>
+                      </form>
+                    </div>
+                  </div>
+                  </main>
+                </div>
+                  <footer class="my-5 pt-5 text-muted text-center text-small">
+                  <p class="mb-1">&copy; 2017–2021 Company Name</p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#">Terms</a></li>
+                    <li class="list-inline-item"><a href="#">Support</a></li>
+                  </ul>
+                  </footer>
+                  </div>
+
+
+                  </div>
+
+
+
+
+                    </div>
+
+                    
+
+                    <!-- FOOTER -->
+                    <footer class="container">
+                      <div class="container">
+                        <p class="float-end mb-1">
+                          <a href="#">Back to top</a>
+                        </p>
+                            <p class="mb-1">Anime &copy; Creada por giovany alexander chalapud pedraza</p>
+                       </div>                            
+                    </footer>
+                  </main>
+
+
+                      <script src="../bootstrap-5.0.0-beta1-examples/js/bootstrap.bundle.min.js"></script>
+
+                        
+                    </body>
+                  </html>
